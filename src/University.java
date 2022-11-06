@@ -21,5 +21,12 @@ public class University {
     int getWorldRanking(){
         return worldRanking;
     }
+    void getUniversityInfo(){
+        System.out.println();
+        System.out.println("University   : " + getName());
+        System.out.println("Country      : " + getCountry());
+        System.out.println("World Ranking: " + getWorldRanking());
+        System.out.println();
+    }
 
 }

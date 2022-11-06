@@ -21,4 +21,11 @@ public class Person {
     String getPlaceOfBirth(){
         return placeOfBirth;
     }
+    void getPersonInfo(){
+        System.out.println();
+        System.out.println("Full name     : " + getFullName());
+        System.out.println("Age           : " + getAge());
+        System.out.println("Place of birth: " + getFullName());
+        System.out.println();
+    }
 }

@@ -21,4 +21,11 @@ public class Car {
     String getColor(){
         return color;
     }
+    void getCarInfo(){
+        System.out.println();
+        System.out.println("Model: " + getModel());
+        System.out.println("Year : " + getYear());
+        System.out.println("Color: " + getColor());
+        System.out.println();
+    }
 }
